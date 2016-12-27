@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    font-family: arial;
+    /*border-width: 2px;`
+    border-style: solid;
+    border-color: white;*/
+}
+h2{
+    color: orange;
+    font-family: arial;
+    font-size: 115%;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 20px;
+    margin: 0;
+}
+#heading, #nav{
+    background-color: black;
+}
+#main{
+    background-color: black;
+}
+p{
+    color: orange;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#genere{
+    width: 9em;
+    height: 2.7em;
+    border-radius: 0.9em;
+}
+#postbut{
+    width: 10em;
+    height: 2.7em;
+    border-radius: 0.9em;
+}
+.text{
+    font-size: 90%;
+}
+input[type=text]{
+    border-width: 4px;
+    color: orange;
+    width: 189px;
+    height: 26px;
+    font-family: arial;
+    font-size: 120%;
+    text-align: center;
+    border-radius: 0.9em;
+}
+textarea{
+    border-width: 1px;
+    border-radius: 0.9em;  
+    border-color: orange;
+    color: orange;
+    font-family: arial;
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-right: 3px;
+}
+h3{
+    color: orange;
+    font-size: 190%;
+}
+#fixedsize{
+    height: 125px;
+    width: 265px;
+    color: orange;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#sizefixed{
+    height: 55px;
+    width: 265px;
+    color: orange;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/*#moresize{
+    height: 225px;
+    width: 320px;
+    color: orange;
+    padding-right: 500px;
+}*/

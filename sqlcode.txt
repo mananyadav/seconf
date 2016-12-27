@@ -1,0 +1,8 @@
+CREATE TABLE posts(
+	ID int NOT NULL AUTO_INCREMENT,
+	post varchar(222) NOT NULL,
+	genere varchar(10),
+	tme varchar(255),
+	dte varchar(255),
+	PRIMARY KEY (ID)
+);
