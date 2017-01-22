@@ -26,7 +26,7 @@
 			border-radius:0.8em;padding-top:0px;padding-bottom:0px;padding-left:20px;padding-right:20px;
 		}
 		table{
-			
+
 		}
 	</style>
 	<!--CSS end-->
@@ -58,7 +58,7 @@
 	if (!$conn) {
     	die("Connection failed: " . mysqli_connect_error());
 	}
-	?><center><br><br> 
+	?><center><br><br>
 	<?php
 	$sql = "SELECT * FROM posts ";
 	$result = mysqli_query($conn, $sql);//if (strlen($post) <= 99.5) {echo "<td><h2>$post</h2></td>";}
