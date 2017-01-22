@@ -1,7 +1,4 @@
 <?php
-
-// Mysql settings
-
 $user			= "root";
 $password	= "toor";
 $database	= "learnmr";
