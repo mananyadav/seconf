@@ -77,9 +77,9 @@
         echo "<tr><td cellpadding=\"0px\"; colspan=\"3\"><div id=\"cold\"><h4 align=\"center\" style=\"color: white;font-size: 1.1em;\">" . $item["genere"] . "</h4></td></tr>";
         print("
         	<tr>
-        		<td><button id=\"based0\" style=\"\"><p style=\"padding:0px;margin:11px;\">Like</p></button></td>
+        		<td><a href=\"\"><button id=\"based0\" style=\"\"><p style=\"padding:0px;margin:11px;\">Like</p></button></a></td>
         		<td></td>
-        		<td><button id=\"based\" style=\"\"><p style=\"padding:0px;margin:11px;\">Comment</p></button></td>
+        		<td><a href=\"comments.php?postNo=" . $item['post'] . "\"><button id=\"based\" style=\"\"><p style=\"padding:0px;margin:11px;\">Comment</p></button></a></td>
         	</tr>
         ");
         echo "</table><br><br>";

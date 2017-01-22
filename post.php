@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include 'mysql.php';
 ?>
 <!DOCTYPE html>
@@ -51,7 +51,7 @@
 			<table border="1">
 				<tr>
 					<td align="center"><?php $ab = date("d/m/Y");echo "<p style=\"color: white;\">". $ttiimmee . "</p>"; ?></td>
-					<?php 
+					<?php
 						//echo "<h2>$post</h2>"
 						if (strlen($post) <= 99.5) {
 							echo "<td><div id=\"sizefixed\">$post</div></td>";

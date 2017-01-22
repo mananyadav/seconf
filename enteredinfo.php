@@ -52,7 +52,7 @@
 	<table border="1">
 		<tr>
 			<td align="center"><?php echo "<p style=\"color: white;\">" . $dte . "</p>"; ?></td>
-			<?php 
+			<?php
 				//echo "<h2>$post</h2>"
 				if (strlen($post) <= 105.5) {
 					echo "<td><div id=\"sizefixed\">$post</div></td>";
@@ -74,7 +74,7 @@
 	<?php
 	//for database
 	$servername = "localhost";
-	$username = "root";	
+	$username = "root";
 	$password = "toor";
 	$dbname = "learnmr";
 	// Create connection
