@@ -40,7 +40,7 @@ if (!$conn) {
       <?php
       $sql = "SELECT * FROM posts ";
     	$result = mysqli_query($conn, $sql);//if (strlen($post) <= 99.5) {echo "<td><h2>$post</h2></td>";}
-    	if (mysqli_num_rows($result) > 0) {
+    	if (mysqli_num_rows($result) >= 0) {
         	// output data of each row
         	$items = array();
         	while($row = mysqli_fetch_assoc($result)){

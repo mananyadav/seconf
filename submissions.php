@@ -79,7 +79,7 @@
         	<tr>
         		<td><a href=\"\"><button id=\"based0\" style=\"\"><p style=\"padding:0px;margin:11px;\">Like</p></button></a></td>
         		<td></td>
-        		<td><a href=\"comments.php?postNo=" . $item['post'] . "\"><button id=\"based\" style=\"\"><p style=\"padding:0px;margin:11px;\">Comment</p></button></a></td>
+        		<td><a href=\"comments.php?postNo=" . $item['post'] . "&idForPost=". $item['ID'] ."\"><button id=\"based\" style=\"\"><p style=\"padding:0px;margin:11px;\">Comment</p></button></a></td>
         	</tr>
         ");
         echo "</table><br><br>";
